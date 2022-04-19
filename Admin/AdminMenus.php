@@ -1,7 +1,7 @@
 <?php
-namespace PluginPlaceholder\Admin;
+namespace ProvesPlubo\Admin;
 
-use PluginPlaceholder\Includes\BladeLoader;
+use ProvesPlubo\Includes\BladeLoader;
 
 class AdminMenus {
 

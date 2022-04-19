@@ -1,5 +1,5 @@
 <?php
-namespace PluginPlaceholder\Includes;
+namespace ProvesPlubo\Includes;
 
 class Utils
 {

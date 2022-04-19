@@ -1,5 +1,5 @@
 <?php
-namespace PluginPlaceholder\General;
+namespace ProvesPlubo\General;
 
 use PluboRoutes\Endpoint\GetEndpoint;
 use PluboRoutes\Endpoint\PostEndpoint;

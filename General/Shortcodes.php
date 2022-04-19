@@ -1,7 +1,7 @@
 <?php
-namespace PluginPlaceholder\General;
+namespace ProvesPlubo\General;
 
-use PluginPlaceholder\Includes\BladeLoader;
+use ProvesPlubo\Includes\BladeLoader;
 
 class Shortcodes {
 

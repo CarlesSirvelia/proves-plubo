@@ -1,5 +1,5 @@
 <?php
-namespace PluginPlaceholder\Includes;
+namespace ProvesPlubo\Includes;
 
 use Jenssegers\Blade\Blade;
 
@@ -9,9 +9,9 @@ class BladeLoader
     private $blade;
 
     private function __construct() {
-      $this->blade = new Blade(PLUGIN_PLACEHOLDER_PATH . 'resources/views', PLUGIN_PLACEHOLDER_PATH . 'resources/cache');
+      $this->blade = new Blade(PROVESPLUBO_PATH . 'resources/views', PROVESPLUBO_PATH . 'resources/cache');
       add_action( 'init', function() {
-        foreach ( glob(PLUGIN_PLACEHOLDER_PATH . 'resources/directives/*.php') as $filename ) {
+        foreach ( glob(PROVESPLUBO_PATH . 'resources/directives/*.php') as $filename ) {
           require_once $filename;
         }
       }, 1 );

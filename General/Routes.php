@@ -1,5 +1,5 @@
 <?php
-namespace PluginPlaceholder\General;
+namespace ProvesPlubo\General;
 
 use PluboRoutes\Route\Route;
 use PluboRoutes\Route\ActionRoute;

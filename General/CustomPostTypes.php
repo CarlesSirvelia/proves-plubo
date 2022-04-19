@@ -1,5 +1,5 @@
 <?php
-namespace PluginPlaceholder\General;
+namespace ProvesPlubo\General;
 
 class CustomPostTypes {
 

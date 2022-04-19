@@ -1,5 +1,5 @@
 <?php
-namespace PluginPlaceholder\Admin;
+namespace ProvesPlubo\Admin;
 
 class Crons {
 
